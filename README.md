@@ -31,11 +31,22 @@ Fusion **does not** collect or transmit user data for its own analytics, trackin
 
 ## 4. Legal Basis for Processing
 
-The handling of information by Fusion is based on:
+Fusion processes personal data under the following legal bases as required by GDPR Article 6:
 
-*   **User Consent:** For actions initiated by the user, such as providing API keys, enabling iCloud sync, or installing addons.
-*   **Performance of a Contract / Service Provision:** To enable the core functionalities of the app as requested by the user, such as interacting with connected third-party services or addons.
-*   **Legitimate Interests.**
+### a) Consent (Art. 6(1)(a)):
+* For storing and processing third-party API keys and authentication tokens that users explicitly provide
+* For enabling iCloud syncing when users activate this feature
+* For processing addon-related information when users choose to install specific addons
+
+### b) Contract Performance (Art. 6(1)(b)):
+* For sending necessary data to third-party services (Trakt, TMDB, MDBList, OpenRouter) to fulfill the app's core functionality as requested by the user
+* For processing user queries and configuration preferences to deliver the expected app experience
+
+### c) Legitimate Interests (Art. 6(1)(f)):
+* For storing basic app configuration data locally to maintain app functionality
+* For implementing security measures to protect user credentials
+   
+Our legitimate interests are balanced against user privacy rights and are limited to what's necessary for the app's proper functioning. These interests do not override the fundamental rights or interests of users.
 
 ## 5. How Fusion Uses Information
 
