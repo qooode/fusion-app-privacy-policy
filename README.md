@@ -47,18 +47,18 @@ Fusion is designed to minimise direct collection of personal data. However, to p
 Fusion processes personal data under the legal bases defined in GDPR Article 6, as applicable:
 
 * **Consent (GDPR Art. 6(1)(a)):** Processing based on the user’s consent:
- - Storing and using third-party API keys or authentication tokens that the user explicitly provides for connecting their accounts.
- - Syncing data via iCloud, when the user actively enables iCloud Sync in the app.
- - Using and transmitting addon-related data when the user chooses to install and use a specific addon (the user’s actions imply consent to that addon’s data usage).
+  - Storing and using third-party API keys or authentication tokens that the user explicitly provides for connecting their accounts.
+  - Syncing data via iCloud, when the user actively enables iCloud Sync in the app.
+  - Using and transmitting addon-related data when the user chooses to install and use a specific addon (the user’s actions imply consent to that addon’s data usage).
 
 * **Contract Performance (GDPR Art. 6(1)(b)):** Processing necessary to fulfill the app services requested by the user:
- - Sending requests and data to third-party services (Trakt, TMDB, MDBList, OpenRouter, etc.) that the user has connected, in order to retrieve or sync content as part of Fusion’s core functionality.
- - Handling the user’s queries, commands, and configuration choices within the app to deliver the expected features (for example, playing a trailer via a linked service, or applying a filter in an addon).
+  - Sending requests and data to third-party services (Trakt, TMDB, MDBList, OpenRouter, etc.) that the user has connected, in order to retrieve or sync content as part of Fusion’s core functionality.
+  - Handling the user’s queries, commands, and configuration choices within the app to deliver the expected features (for example, playing a trailer via a linked service, or applying a filter in an addon).
 
 * **Legitimate Interests (GDPR Art. 6(1)(f)):** Processing based on the legitimate interests of the controller, balanced against user rights:
- - Storing basic app configuration and state data locally on the device to maintain functionality and a smooth user experience (e.g. remembering user settings, login tokens) without repeatedly asking for information.
- - Implementing security measures to protect user-provided credentials (e.g. using Keychain for tokens) and to prevent unauthorized access.
- - Receiving and analyzing anonymized crash reports (if a user opts to share them) to improve the app’s quality and reliability. This diagnostic processing is minimal and does not override users’ privacy rights, and it helps ensure the app runs safely and efficiently.
+  - Storing basic app configuration and state data locally on the device to maintain functionality and a smooth user experience (e.g. remembering user settings, login tokens) without repeatedly asking for information.
+  - Implementing security measures to protect user-provided credentials (e.g. using Keychain for tokens) and to prevent unauthorized access.
+  - Receiving and analyzing anonymized crash reports (if a user opts to share them) to improve the app’s quality and reliability. This diagnostic processing is minimal and does not override users’ privacy rights, and it helps ensure the app runs safely and efficiently.
 
 Our reliance on these bases is in accordance with GDPR requirements. We only pursue **legitimate interests** that are necessary for the app’s proper functioning and security, and we have assessed that these do not override your fundamental rights and freedoms. Where consent is required, you have the right to withdraw consent at any time (see Section 8 below), and where contract performance is the basis, the processing is limited to what is needed to deliver the requested features.
 
