@@ -80,10 +80,10 @@ We use the information described above strictly to operate and provide the app�
 Fusion does **not** share or send your personal information to any external parties except in the limited scenarios described below, which typically occur under your direction. In particular, Fusion (the app or its developer) does not sell or trade personal data, and does not disclose your information for advertising or marketing purposes.
 
 * **Third-Party Services (User-Initiated):** When you choose to connect Fusion to an external service (such as Trakt, TMDB, MDBList, OpenRouter, etc.), you are instructing the app to communicate with that service. In doing so, Fusion will transmit the necessary data (e.g. your API token and the specific request or query) to the third-party service **only** to fulfill the functionality you selected. For example, if you sync your watchlist with Trakt, Fusion sends your Trakt token and request to Trakt’s API to fetch your list. These third-party services act as separate data controllers for any personal data you send to them. **Please review the privacy policy of each service you connect** for details on how they handle your data. For convenience, here are links to those policies:
- - Apple Privacy Policy [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
- - Trakt Privacy [https://trakt.tv/privacy](https://trakt.tv/privacy)
- - TMDB Privacy [https://www.themoviedb.org/privacy-policy](https://www.themoviedb.org/privacy-policy)
- - OpenRouter Privacy [https://openrouter.ai/privacy](https://openrouter.ai/privacy)
+  - Apple Privacy Policy [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+  - Trakt Privacy [https://trakt.tv/privacy](https://trakt.tv/privacy)
+  - TMDB Privacy [https://www.themoviedb.org/privacy-policy](https://www.themoviedb.org/privacy-policy)
+  - OpenRouter Privacy [https://openrouter.ai/privacy](https://openrouter.ai/privacy)
 
 * **Addons (User-Initiated):** Similarly, if you install a third-party addon in Fusion, the app will send requests to the addon’s designated server or API as needed to provide that addon’s functionality. This means any query you perform through an addon (such as searching for a title) will be sent to the addon’s backend service. This happens only because you installed and used the addon. **Fusion’s developer has no control over third-party addon providers.** The privacy and security of data handled by an addon’s service are the responsibility of that addon’s developer or provider. By installing an addon, you are effectively consenting to send data to that addon’s service. We strongly advise users to only use addons from sources they trust and to consult any available privacy information from the addon provider. *(For example, if an addon is meant to retrieve information from a certain website, any data you input will be sent to that website according to the addon’s design.)*
 
