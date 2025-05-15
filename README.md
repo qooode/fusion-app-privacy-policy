@@ -21,22 +21,22 @@ Disclosing a private residence would violate the GDPR data-minimisation principl
 Fusion is designed to minimise direct collection of personal data. However, to provide its services, Fusion handles the following information:
 
 * **Information for Third-Party Service Integration:**
- - *User-Provided Credentials:* To connect with services like Trakt, TMDB, MDBList, or OpenRouter at the user’s request, Fusion may require API keys or authentication tokens. This information is provided explicitly by the user.
- - *Storage:* Trakt OAuth tokens are stored securely in the device’s Keychain. API keys or tokens for TMDB, MDBList, and OpenRouter are stored in the app’s local storage (UserDefaults) on the user’s device.
+  - *User-Provided Credentials:* To connect with services like Trakt, TMDB, MDBList, or OpenRouter at the user’s request, Fusion may require API keys or authentication tokens. This information is provided explicitly by the user.
+  - *Storage:* Trakt OAuth tokens are stored securely in the device’s Keychain. API keys or tokens for TMDB, MDBList, and OpenRouter are stored in the app’s local storage (UserDefaults) on the user’s device.
 
 * **iCloud Sync Data:**
- - If the user enables iCloud Sync, certain app data and settings (e.g. Trakt catalog lists, addon configurations, general preferences) are synced via the user’s private iCloud account using Apple’s `NSUbiquitousKeyValueStore`. This data is subject to Apple’s iCloud terms and privacy policy, and Fusion cannot access or control the data in the user’s iCloud account beyond facilitating the sync.
+  - If the user enables iCloud Sync, certain app data and settings (e.g. Trakt catalog lists, addon configurations, general preferences) are synced via the user’s private iCloud account using Apple’s `NSUbiquitousKeyValueStore`. This data is subject to Apple’s iCloud terms and privacy policy, and Fusion cannot access or control the data in the user’s iCloud account beyond facilitating the sync.
 
 * **Addon-Related Information:**
- - When users install and use third-party addons (plugins) from user-provided URLs, Fusion interacts with the addon’s specified server endpoint **at the user’s direction**. For example, Fusion may send content identifiers (like IMDb or TMDB IDs) or user-initiated queries (search terms, filter selections) to the addon’s URL as configured by the user. This happens only as a result of the user installing/configuring an addon. *(Note: addons are provided by third parties; users should review any privacy information from the addon provider, as Fusion does not control addon services.)*
+  - When users install and use third-party addons (plugins) from user-provided URLs, Fusion interacts with the addon’s specified server endpoint **at the user’s direction**. For example, Fusion may send content identifiers (like IMDb or TMDB IDs) or user-initiated queries (search terms, filter selections) to the addon’s URL as configured by the user. This happens only as a result of the user installing/configuring an addon. *(Note: addons are provided by third parties; users should review any privacy information from the addon provider, as Fusion does not control addon services.)*
 
 > **Addon providers are independent “data controllers.” No joint-controller arrangements exist between the developer and addon authors.**
 
 * **Non-Personally Identifiable Information:**
- - Fusion may handle non-personally identifiable information related to app configuration and preferences (e.g. UI settings), stored locally on the device (and optionally synced via iCloud, per the user’s settings).
+  - Fusion may handle non-personally identifiable information related to app configuration and preferences (e.g. UI settings), stored locally on the device (and optionally synced via iCloud, per the user’s settings).
 
 * **Crash and Diagnostic Reports:**
- - If the app crashes or encounters an error, the device may generate a crash report. With the user’s consent (for instance, if you have enabled iOS analytics sharing or are using TestFlight for beta testing), these reports are sent to Apple and made available to the developer. Crash reports contain technical details about the incident (such as error codes, function names, app version, device model, and iOS version) but **do not include personal data**. Apple anonymizes crash logs by removing any user-identifying information before forwarding them to us. We use crash diagnostics exclusively to debug issues and improve the app’s stability and performance.
+  - If the app crashes or encounters an error, the device may generate a crash report. With the user’s consent (for instance, if you have enabled iOS analytics sharing or are using TestFlight for beta testing), these reports are sent to Apple and made available to the developer. Crash reports contain technical details about the incident (such as error codes, function names, app version, device model, and iOS version) but **do not include personal data**. Apple anonymizes crash logs by removing any user-identifying information before forwarding them to us. We use crash diagnostics exclusively to debug issues and improve the app’s stability and performance.
 
 > **No tracking or advertising:** Fusion **does not** collect or transmit any user data for analytics, profiling, advertising, or marketing purposes. There are **no** third-party trackers, ad SDKs, or analytics tools integrated in the app. The only data transmissions are those **explicitly initiated by the user** for the app’s functionality as described above.
 
